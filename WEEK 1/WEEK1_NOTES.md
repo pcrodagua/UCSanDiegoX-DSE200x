@@ -143,19 +143,91 @@ __Analysis and Modeling__
 * Unsupervised Learning
 * Semisupervised Learning
 
-
-### Generating Value From Data Discussion
-### Learn more about DS at the San Diego Supercomputer Center
-
-
-
-
-
-
+---
 
 ## How Data Science Happens [Engagement]
 
+### How Data Science Happens
+* DS Extracts value out of data based on a question
+* It helps 
+* Multidisciplinary craft that helps sicentist over a broad of questions to analyze data.
+
+__DS Process__
+* Sequence of steps
+* Data engineering
+    * Acquire
+    * Prepare
+* Computational DS
+    * Analyze
+    * Report
+    * Act
+At the end of the day is a programming analytical tool that helps analyze data.
+
+### Asking the Right Question
+
+__Define the problem__
+Consist of making the basic ingredients to obtain value out of data. A problem well defined is a problem half solved.
+
+__Assess the Situation__
+This questions let get a better overview with the problems in mind.
+
+* Risk
+* Benefit
+* Contingencies
+* Regulations 
+* Resources
+* Requirements
+
+__Define Goals__
+* Objectives 
+* Criteria
+
+### Steps in DS
+All steps will be use in the DS process.
+
+__Acquire:__
+* Identify datasets
+* Retreive data
+* Query data
+
+__Explore Data__
+* Understan nature of data
+* Preliminary analysis
+
+__Prepocessing__
+* Clean 
+* Integrate
+* Package
+
+__Analyze Data__
+* Select analytias techniques
+* Build models
+
+__Communicate Results__
+* Interpret
+* Summarize
+* Visualize
+* Postproccess
+
+__Apply results__
+* Give value to the initial question
+
+This whole process is an iterative tool.
+
+---
+
 ## Acquire, Prepare, Analyze, Report, Act [Engagement]
+
+### Step 1: Acquiring Data
+### Step 2: [A] Exploring Data
+### Step 2: [B] Pre-processing Data
+### Step 3: Analyze Data
+### Step 4: Reporting Insights
+### Step 5: Tunning Insights into Action
+### Conclusion
+### Setting up the System for this Course[Set Up]
+### Data Science Process[Discussion]
+
 
 ## Week 1 Assessement[Quiz]
 
