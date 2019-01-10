@@ -219,16 +219,144 @@ This whole process is an iterative tool.
 ## Acquire, Prepare, Analyze, Report, Act [Engagement]
 
 ### Step 1: Acquiring Data
+__Where's the data__
+* identify suitable data
+* acquiere all avaible data
+* local or remote
+* data comes in multiple ways(structured or unstructured)
+
+__Examples__
+
+* traditional databases
+* SQL and query browsers
+* text files
+* excel files
+
+* Languages
+    * ruby
+    * Js
+    * php
+    * R
+    * Octave
+* Web services
+    * remote data
+    * XML
+    * JSON
+    * REST
+    * WebSockets
+* No SQL
+    * MongoDB
+    * Apache HBASE
+    * Cassandra
+    * Neo4J
+    * CouchDB
+
+
 ### Step 2: [A] Exploring Data
+__Why explore?__
+Goal: understand your data
+
+__Correlation Graphs:__ Explore dependencies between different data
+
+__General trends:__ How data is progressing over time
+
+__Outliers:__ Data points distance for other data points, this let us find check for errors in the data.
+
+__Summary Statistics:__ Quantities that characterize a set of values, this often give a basic idea of the nature of it.
+
+* _Mode:_ value that occurs more frequently
+* _Median:_ Median of the location
+* _Mean:_ Average of data
+* _Range & STDEV:_ How data is spread
+
+__Visualize Data__
+* _Heat map:_ Gives ideas of hot spots
+* _Histograms:_ Distribution of data
+* _Box Plots:_ Also displays how data is distributed
+* _Line graphs:_ How data is changing overtime
+* _Scatterplots:_ Correlation of data
+
+
 ### Step 2: [B] Pre-processing Data
+Clean + Transform
+
+__Messy data__
+
+* inconsistent data types
+* duplicate records
+* missing values
+* invalid data
+* outliers
+
+__Addressig Data Quality Issues__
+
+* Remove data with missing values
+* Merge duplicate records
+* generate best estimate for invalid values
+* remove outliers
+
+__Getting data in shape__
+
+Also known as Data mungin, data wrangling and data preprocessing
+
+__Operations__
+* _Scaling:_ Change range of values(normalization) 
+* _Dimensionality reduction:_ eliminates irrelevant features(principal component analisys) 
+* _Transformation:_ Agregate data with less variability or noise removal/also know as smoothing data
+* _Data Manipulation:_ capture specific segments grouping them according to a certain group
+* _Feature selection:_  
+    * _Remove features:_ remove redundant features
+    * _Combine features:_ correlate data without negativaly affect data
+    * _Add features:_ add new ways of calculation, example tax
+
 ### Step 3: Analyze Data
+__Model Building__
+
+Inut data -> Analysis Techniques -> Model -> Model output
+
+
+__Categories of Analysis Techniques__
+
+* _Classification:_ Predict a category
+* _Regresion:_ Predict a numeric value
+* _Clustering:_ Organize similar items into groups
+* _Association Analysis:_ Find ruels to capture associations between items
+* _Graph Analytics:_ Use graph structures to find connections between entities
+* _Modeling:_ Select Technique -> Build Model -> Validate Model
+
+
+__Evaluation Techniques__
+* _Clasification vs Regresion:_ predicted value vs correct value
+* _Clustering:_ Examine if the clusters make sense
+* _Association Analysis & Graph Analysis:_ investigate the outpus and validate the value. Then repeat the analysis with mmore data, take a deeper dive and finally act on results.
+
+
 ### Step 4: Reporting Insights
+
+__Communicate Results__
+
+__What to present?__
+* Determinate what part of analysis go first(piramyd structure)
+* What are the main results
+* How does the results are compared to the succeed criteria
+* The biggest labor is to make hard data into easy stories
+
+__How to present?__
+
+* All kind of graphs area good
+* Some visualization tools
+    * R
+    * Python
+    * D3JS
+    * Google Developers Charts
+    * Tableau
+    * TimelineJS
+
 ### Step 5: Tunning Insights into Action
+
+Connect your result with scientific questions
+
+Results -> Purpose
+
 ### Conclusion
-### Setting up the System for this Course[Set Up]
-### Data Science Process[Discussion]
-
-
-## Week 1 Assessement[Quiz]
-
-## Week 1 Questions/Concern [Discussion]
+Apply this process into programming tools so data can gain more valuable insights
